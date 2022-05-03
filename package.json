@@ -15,8 +15,10 @@
       "pre-commit": "npm run lint"
     }
   },
-  "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/eslint-parser": "^7.17.0",
+    "@tencent/eslint-config-tencent": "^1.0.4",
     "eslint": "^8.14.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
