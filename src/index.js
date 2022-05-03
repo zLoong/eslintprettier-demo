@@ -27,5 +27,5 @@ const gca = window.document.getElementById('cc');
 
 const tt = 1;
 if (tt == 1) {
-  console.log('oooo');
+  console.log('oooo00');
 }
