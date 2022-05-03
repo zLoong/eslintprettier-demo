@@ -1,23 +1,24 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
-  extends: ['plugin:react/recommended', '@tencent/eslint-config-tencent', 'standard'],
+  extends: ['plugin:react/recommended', '@tencent/eslint-config-tencent', 'prettier'],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
-  plugins: ['react'],
+  plugins: ['react', 'prettier'],
   rules: {
     // indent: ['error', 4],
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
     'max-lines-per-function': ['error', 80],
     'max-len': ['error', 120],
-    'max-lines': ['error', 800]
-  }
+    'max-lines': ['error', 800],
+    'prettier/prettier': 'error',
+  },
 };

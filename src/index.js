@@ -12,7 +12,10 @@ const c = 'dd';
 
 const ddd = new Set();
 
-const person = { name: 'Fred', age: 87 };
+const person = {
+  name: 'Fred',
+  age: 87,
+};
 Object.values(person); // ['Fred', 87]
 
 const add = async (a, b) => {
