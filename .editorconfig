@@ -1,0 +1,18 @@
+# http://editorconfig.org
+root = true
+
+[*]
+# 编码格式
+charset = utf-8
+# 缩进方式[space|tab]
+indent_style = space
+# 缩进大小
+indent_size = 2
+# 换行符类型[lf|cr|crlf]
+end_of_line = lf
+# 文件以空行结束
+insert_final_newline = true
+# 删除尾行空格
+trim_trailing_whitespace = true
+# 最大行宽
+max_line_length = 120

@@ -24,4 +24,3 @@ module.exports = {
     // 换行符使用 lf
     endOfLine: 'lf',
   };
-  

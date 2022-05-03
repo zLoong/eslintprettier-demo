@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: ['react', 'prettier'],
   rules: {
-    // indent: ['error', 4],
+    indent: ['warn', 2],
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
     'max-lines-per-function': ['error', 80],
