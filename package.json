@@ -10,9 +10,9 @@
   },
   "husky": {
     "hooks": {
-      "commit": "echo 'husky1'",
-      "merge": "echo 'husky2'",
-      "pre-commit": "echo 'husky3'"
+      "commit": "npm run lint",
+      "merge": "npm run lint",
+      "pre-commit": "npm run lint"
     }
   },
   "dependencies": {},
