@@ -5,13 +5,5 @@ module.exports = {
     indentation: 4,
     'no-descending-specificity': null,
   },
-  ignoreFiles: [
-    '.eslintignore',
-    '.prettierignore',
-    '.stylelintrc.js',
-    '.vscode/*',
-    'package-lock.json',
-    'package.json',
-    'yarn.lock',
-  ],
+  ignoreFiles: ['.eslintignore', '.prettierignore', '.*.js', '.vscode/*', '*.json', '*.lock', 'src/*.js', 'src/*.ts'],
 };

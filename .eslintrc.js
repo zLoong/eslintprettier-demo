@@ -3,7 +3,12 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['plugin:react/recommended', '@tencent/eslint-config-tencent', 'prettier'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react/recommended',
+    '@tencent/eslint-config-tencent',
+    'prettier',
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -12,6 +17,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react', 'prettier'],
+  parser: '@typescript-eslint/parser',
   rules: {
     indent: ['warn', 2],
     quotes: ['error', 'single'],

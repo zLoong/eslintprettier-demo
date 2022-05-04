@@ -1,4 +1,4 @@
-const buildNewsComponents = () => {};
+const buildNewsComponents = () => null;
 export const jsonConvertUI = (articleData = {}) => {
   const { vContentField = [], sHtmlContent, bUseHtml, sJsonContent } = articleData;
   let extParams = {};
